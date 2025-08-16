@@ -37,7 +37,7 @@ $ deno add npm:feedlist
 
 ## Author
 
-My name is **Hamet Kévin E. ODOUTAN** (@vinoskey524). I’ve been doing software development since 8 years now. I do web, desktop, and mobile development, and now I’m very excited to contribute to open-source with forestDB.
+My name is **Hamet Kévin E. ODOUTAN** (@vinoskey524) and I’ve been doing software development (web, desktop and mobile) since 2017.
 
 I’m not the kind of developer who types “How to build a cool web app” into Google and picks the first response, or the kind who makes a dumb copy-paste from ChatGPT. No !
 I like to understand things and know what I’m really doing. For me, a real developer should be able to explain every single line of his code.
