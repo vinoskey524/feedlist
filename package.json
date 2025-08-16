@@ -1,5 +1,6 @@
 {
   "name": "feedlist",
+  "version": "1.0.0",
   "packageManager": "yarn@4.9.2",
   "scripts": {
     "b": "clear && tsup src/main.tsx --format esm --dts && esbuild dist/main.mjs --bundle --minify --format=esm --platform=node --outfile=dist/main.mjs --keep-names --allow-overwrite"
