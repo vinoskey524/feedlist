@@ -695,7 +695,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.25.0, esbuild@npm:^0.25.9":
+"esbuild@npm:^0.25.0, esbuild@npm:^0.25.9, esbuild@npm:~0.25.0":
   version: 0.25.9
   resolution: "esbuild@npm:0.25.9"
   dependencies:
@@ -814,6 +814,7 @@ __metadata:
     forestdb: "npm:^1.0.10"
     jquery: "npm:^3.7.1"
     tsup: "npm:^8.5.0"
+    tsx: "npm:^4.20.4"
     typescript: "npm:^5.9.2"
     vite: "npm:^7.1.1"
   peerDependencies:
@@ -875,6 +876,15 @@ __metadata:
   dependencies:
     node-gyp: "npm:latest"
   conditions: os=darwin
+  languageName: node
+  linkType: hard
+
+"get-tsconfig@npm:^4.7.5":
+  version: 4.10.1
+  resolution: "get-tsconfig@npm:4.10.1"
+  dependencies:
+    resolve-pkg-maps: "npm:^1.0.0"
+  checksum: 10/04d63f47fdecaefbd1f73ec02949be4ec4db7d6d9fbc8d4e81f9a4bb1c6f876e48943712f2f9236643d3e4d61d9a7b06da08564d08b034631ebe3f5605bef237
   languageName: node
   linkType: hard
 
@@ -1382,6 +1392,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"resolve-pkg-maps@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "resolve-pkg-maps@npm:1.0.0"
+  checksum: 10/0763150adf303040c304009231314d1e84c6e5ebfa2d82b7d94e96a6e82bacd1dcc0b58ae257315f3c8adb89a91d8d0f12928241cba2df1680fbe6f60bf99b0e
+  languageName: node
+  linkType: hard
+
 "retry@npm:^0.12.0":
   version: 0.12.0
   resolution: "retry@npm:0.12.0"
@@ -1727,6 +1744,22 @@ __metadata:
     tsup: dist/cli-default.js
     tsup-node: dist/cli-node.js
   checksum: 10/426f5de085fb7f3321a1d7910af4a56279341e571f9fb0b28be1a44ff0efa7fdd4e886eadd86b00a500696b3a76fc4e8b19567389ac64c345b559f860c3c6f9f
+  languageName: node
+  linkType: hard
+
+"tsx@npm:^4.20.4":
+  version: 4.20.4
+  resolution: "tsx@npm:4.20.4"
+  dependencies:
+    esbuild: "npm:~0.25.0"
+    fsevents: "npm:~2.3.3"
+    get-tsconfig: "npm:^4.7.5"
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    tsx: dist/cli.mjs
+  checksum: 10/dc5d7b7a15fc67f9e3bd20a6d0b3322bd798aa544ce6ab1e857134ea5803f2cd7ac8f4a2099e4ca842dd6e22f2d5a5ea0e0057f571f4d2101ba64b676ffaea3d
   languageName: node
   linkType: hard
 

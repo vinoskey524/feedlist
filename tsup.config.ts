@@ -6,7 +6,7 @@ export default defineConfig({
     dts: true,
     outDir: 'dist',
     splitting: false,
-    sourcemap: true,
+    sourcemap: false,
     clean: true,
     external: ['react', 'react-dom', 'react/jsx-runtime'],
     loader: {

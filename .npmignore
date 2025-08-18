@@ -1,12 +1,7 @@
 .yarn
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
-
 node_modules
 src
+dist/main.js
 .DS_Store
 
 .env
@@ -15,6 +10,8 @@ src
 .gitattributes
 .gitignore
 .pnp.*
+tsup.config.ts
+esbuild.config.js
 
 tsconfig.json
 yarn.lock

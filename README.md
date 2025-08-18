@@ -6,9 +6,17 @@ A highly efficient and high-performance feeds renderer, designed for React and R
 
 - [Installation](#installation)
 - [What's feedlist](#whats-feedlist)
+- [Component & Props](#component--props)
 - [API Documentation](#api-documentation)
+    - [renderFeeds](#removefeeds)
+    - [updateFeeds](#updatefeeds)
+    - [removeFeeds](#removefeeds)
+    - [restoreFeeds](#restorefeeds)
+    - [getVisibleFeeds](#getvisiblefeeds)
+    - [scrollToTop](#scrolltotop)
+    - [fetchFeeds](#fetchfeeds)
 - [Author](#author)
-- [Other packages](#other-packagzes)
+- [Other packages](#other-packages)
 - [Contact Me](#contact-me)
 - [License](#license)
 
@@ -33,7 +41,73 @@ $ deno add npm:feedlist
 
 ## What's feedlist
 
+## Component & Props
+
+```tsx
+```
+
+- **`ref`**:
+
+- **`id`**:
+
+- **`mode`**:
+
+- **`primaryKey`**:
+
+- **`feeds`**:
+
+- **`columns?`**:
+
+- **`component`**:
+
+- **`onFetch?`**:
+
+- **`onRefresh?`**:
+
+- **`onVisible?`**:
+
+- **`onListEndClose?`**:
+
+- **`onListEndReached?`**:
+
+- **`onError?`**:
+
 ## API Documentation
+
+### **renderFeeds**
+
+```ts
+```
+
+### **updateFeeds**
+
+```ts
+```
+
+### **removeFeeds**
+
+```ts
+```
+
+### **restoreFeeds**
+
+```ts
+```
+
+### **getVisibleFeeds**
+
+```ts
+```
+
+### **scrollToTop**
+
+```ts
+```
+
+### **fetchFeeds**
+
+```ts
+```
 
 ## Author
 
@@ -57,7 +131,7 @@ Below are other packages from the same author.
 
 - **[illisible](https://npmjs.com/package/illisible)**: A powerful and high-performance cross-runtime encryption software.
 
-<!-- - **[voicify](https://npmjs.com/package/voicify)**: . -->
+<!-- - **[voicify](https://npmjs.com/package/voicify)**: A highly efficient and blazing fast Text-To-Speech (TTS) software. -->
 
 ## Contact Me
 
